@@ -1,12 +1,12 @@
-name:  laos-quest
-title:  Laos Quest
+name:  joust
+title:  Joust 3 - Revenge Of The Lava Troll
 version: "1.0"
-summary:   A challenging puzzle platform game with tricky and ingenious level design!
+summary:   Update to the arcade classic
 description: |
-  A challenging puzzle platform game with tricky and ingenious level design! Jump, shoot, throw dynamite, blast walls and avoid spikes and loads of traps. This game is a mix of Rick Dangerous (Amiga) and Kings Valley II (MSX). Explore temples with living stones, moving platforms, ingenious deadly traps and some tricky enemies. Collect keys, open doors, watch out for watertraps, use buttons to control moving walls and platforms! Move and stack blocks to reach higher places, use moving doors, find hidden spots, use hidden items and much more! This is Indiana Jones retro style!! You can even play with Rick Dangerous!
+  Update to the arcade classic
 
 grade: stable
-icon: laos-quest_icon.png
+icon: joust_icon.png
 
 base: core18
 confinement: strict
@@ -20,11 +20,11 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  laos-quest:
+  joust:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
-      RUN_EXE: "laos_quest.exe"
+      RUN_EXE: "Joust3_RevengeOfTheLavaTroll.exe"
       #INSTALL_EXE: "$SNAP/Blockout25_setup.exe"
       #INSTALL_FLAGS: "/S"
     plugs:
